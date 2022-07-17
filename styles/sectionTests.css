@@ -1,0 +1,20 @@
+#sectionTests .tests-output {
+    background-color: darkslategray;
+    padding: 2rem;
+}
+
+#sectionTests .tests-output p {
+    color: aliceblue;
+    font-family: monospace;
+    margin: 0 .2rem;
+}
+
+#sectionTests .tests-output p .pass {
+    color: lightgreen;
+    font-weight: 600;
+}
+
+#sectionTests .tests-output p .fail {
+    color: indianred;
+    font-weight: 600;
+}

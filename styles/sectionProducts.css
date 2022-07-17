@@ -1,0 +1,18 @@
+#sectionProducts {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#sectionProducts > button {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem;
+}
+
+#sectionProducts > button > :first-child {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}

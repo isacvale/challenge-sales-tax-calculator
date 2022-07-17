@@ -1,0 +1,9 @@
+@import './styles/universal.css';
+@import './styles/sectionProducts.css';
+@import './styles/sectionBasket.css';
+@import './styles/sectionReceipt.css';
+@import './styles/sectionTests.css';
+
+* {
+    font-size: 14px;
+}

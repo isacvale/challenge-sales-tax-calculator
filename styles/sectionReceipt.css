@@ -1,0 +1,7 @@
+#sectionReceipt .receipt-output {
+    box-shadow: 0 1px 2px 2px hsla(0, 0%, 0%, .03), 0 2px 4px 0px hsla(0, 0%, 0%, .01);
+    font-family: monospace;
+    white-space: pre-wrap;
+    border: 1px solid lightgray;
+    padding: 2rem;
+}
