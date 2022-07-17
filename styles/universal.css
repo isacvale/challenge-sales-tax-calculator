@@ -12,8 +12,15 @@ h1 {
 .layout {
     display: grid;
     gap: 2rem;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, min-content);
     margin: 2rem;
-    max-height: calc(100vh - 6rem);
 }
+
+@media screen and (min-width: 720px) {
+    .layout {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        max-height: calc(100vh - 6rem);
+    }
+  }
