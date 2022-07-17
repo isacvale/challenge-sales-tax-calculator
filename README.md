@@ -21,5 +21,7 @@ The sections are:
 ## How to run the app
 Download the code from [GitHub](https://github.com/isacvale/challenge-sales-tax-calculator), then on the root folder, run `npx lite-server`.
 
+The app is also hosted on [https://isac-tax-sale-calculator.netlify.app/](https://isac-tax-sale-calculator.netlify.app/).
+
 ## How to run the tests
-Open the app, as per above, and click the `Run` button.
+Open the app, as per above, and click the `Run` button. 
